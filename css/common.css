@@ -33,10 +33,12 @@ li {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin: 0 auto;
 }
 
 button {
-  min-width: 86px;
+  min-width: auto;
+  margin: 0 auto;
   height: 40px;
   background-color: #4e75ff;
   border-radius: 8px;
@@ -47,4 +49,5 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin-left: 0;
 }
